@@ -1,0 +1,47 @@
+.header {
+    background-color: antiquewhite;
+  }
+  
+  .content {
+    background-color: white;
+    /* background-image: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWRtaW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"); */
+    height: 94vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+  }
+  
+  .top-right {
+    margin-left: 65%;
+  }
+  .grid-container {
+    display: grid;
+  
+    padding: 10px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  .item1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  
+  .item2 {
+    grid-column: 3 / span 35;
+    grid-row: 1 / 4;
+  }
+  
+  .outlets {
+    overflow: scroll;
+    height: 470px;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
